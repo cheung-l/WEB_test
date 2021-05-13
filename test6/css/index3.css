@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1210px;
+    height: 770px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(244,244,244);
+}
+.product{
+    width: 379px;
+    height: 366px;
+    margin: 5px;
+    background-color: white;
+}
+img{
+    height: 254px;
+}
+.introduce{
+    height: 90px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.introduce div{
+    width: 366px;
+}
+.b_box1,.b_box2{
+    font-weight: 700;
+    height: 16px;
+    line-height:16px;
+    font-size: 12px;
+}
+.b_box3{
+    height: 36px;
+    color: rgb(101,101,101);
+    font-size: 12px;
+    font-weight: 700;
+}
+.word1{
+    color: rgb(247,14,68);
+    font-size: 20px;
+    line-height: 30px;
+}
+.word2{
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+.word3{
+    padding-left: 177px;
+}
+.logo{
+    height: 13px;
+}

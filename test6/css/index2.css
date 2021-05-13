@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid black;
+    width: 386px;
+    height: 366px;
+    margin: 0 auto;
+}
+.top{
+    height: 254px;
+    border-bottom: 2px solid black;
+}
+.buttom{
+    background-color: rgb(255,230,244);
+    height: 90px;
+    padding: 10px;
+    text-indent: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttom div{
+    border: 2px solid black;
+    width: 366px;
+    background-color: white;
+}
+.b_box1,.b_box2{
+    font-weight: 700;
+    height: 16px;
+    line-height:16px;
+    font-size: 12px;
+}
+.b_box2{
+    color: rgb(247,14,68);
+}
+.b_box3{
+    height: 26px;
+    color: rgb(101,101,101);
+    font-size: 12px;
+    font-weight: 700;
+}
+.word1{
+    color: rgb(247,14,68);
+    font-size: 20px;
+    line-height: 26px;
+}
+.word2{
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+.word3{
+    padding-left: 100px;
+}
+
