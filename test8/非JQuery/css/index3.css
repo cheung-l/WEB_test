@@ -1,0 +1,36 @@
+.box{
+    width: 500px;
+    border: 2px solid #5e5d55;
+    padding: 30px 0 20px;
+}
+.line{
+    width: 90%;
+    display: flex;
+    border: 2px solid #5e5d55;
+    text-align: center;
+    margin: 10px 20px;
+}
+.num{
+    flex:1;
+}
+.text{
+    width: 100%;
+    flex: 5;
+    border-left: 2px solid #5e5d55;
+    border-right: 2px solid #5e5d55;
+}
+.del{
+    flex:2;
+}
+.add{
+    text-align: center;
+    line-height: 10px;
+    height: 10px;
+    width: 100px;
+    border: 2px solid #5e5d55;
+    background-color: rgb(51,153,102);
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 5px;
+    margin-left: 360px;
+}

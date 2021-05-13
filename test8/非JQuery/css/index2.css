@@ -1,0 +1,28 @@
+.slide_line{
+    display: flex;
+    justify-content: start;
+}
+.slide_line>span{
+    height: 50px;
+    width: 80px;
+    border: 2px solid #5e5d55;
+    border-bottom: none;
+}
+.slide_line :nth-child(1){
+    background-color: rgb(128,128,128);
+}
+.slide_line :nth-child(2){
+    border-left: none;
+    border-right: none;
+}
+.num_box{
+    border: 2px solid #5e5d55;
+    height: 500px;
+    width: 800px;
+    font-size: 250px;
+    font-weight: 900;
+    color: rgb(128,128,128);
+    text-align: center;
+    line-height: 500px;
+}
+

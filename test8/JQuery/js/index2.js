@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".box1").click(function(){
+        $(".slide_line>span").css("background-color","#fff");
+        $(this).css("background-color","rgb(128,128,128)");
+        $(".num_box>span").hide();
+        $(".ch1").fadeIn();
+    });
+    $(".box2").click(function(){
+        $(".slide_line>span").css("background-color","#fff");
+        $(this).css("background-color","rgb(128,128,128)");
+        $(".num_box>span").hide();
+        $(".ch2").fadeIn();
+    });
+    $(".box3").click(function(){
+        $(".slide_line>span").css("background-color","#fff");
+        $(this).css("background-color","rgb(128,128,128)");
+        $(".num_box>span").hide();
+        $(".ch3").fadeIn();
+    });
+});
