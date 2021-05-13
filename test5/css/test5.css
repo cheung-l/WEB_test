@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    width: 900px;
+    height:900px;
+}
+li{
+    list-style: none;
+}
+.background{
+	position: absolute;
+	z-index: 0;
+	opacity: 0;
+}
+.header{
+    width: 1400px;
+    height: 400px;
+    overflow: hidden;
+}
+.picture{
+    padding-top: 49px;
+    padding-left: 124px;
+    width: 490px;
+}
+.h_body{
+    float: right;
+    width: 650px;
+    height:400px;
+    margin-top: 54px;
+    margin-right: 83px;
+}
+.h_line{
+    margin-top: 18px;
+    margin-bottom: 28px;
+    height: 4px;
+    width: 50px;
+    background-color:rgb(3, 97,197);
+}
+.h_content{
+    font-size: 20px;
+    line-height: 34px;
+}
+.h_button{
+    background-color: rgb(1,105,178);
+    margin-top: 28px;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 19px;
+    padding-top: 6px;
+    color: #ffff;
+}
+.h_arrow{
+    padding-left: 94px;
+}
+.mid{
+    width: 1400px;
+    height: 360px;
+}
+.m_title{
+    width: 1270px;
+    height: 104px;
+}
+.m_title1{
+    float: left;
+    padding-left: 126px;
+    padding-top: 36px;
+    color: rgb(0,95,170);
+}
+.m_line{
+    background-color: rgb(0,95,170);
+    height: 18px;
+    width: 4px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 49px;
+}
+.m_title2{
+    width: 200px;
+    float: left;
+    margin-left: 21px;
+    margin-top: 40px;
+}
+.m_button{
+    float: right;
+    width: 107px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(1,105,178);
+    margin-right: 144px;
+    margin-top: 41px;
+    padding-top: 3px;
+    padding-left: 42px;
+    font-size: 20px;
+    color: #fff;
+}
+.m_arrow{
+    margin-left: 22px;
+}
+.m_longline{
+    background-color: rgb(230,230,230);
+    height: 2px;
+    width: 1000px;
+    margin-left: 127px;
+}
+.m_body{
+    width: 1270px;
+    height: 234px;
+    margin-top: 9px;
+}
+.m_content{
+    margin-left: 124px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 15px;
+}
+.m_time{
+    float: left;
+}
+.m_mid,.m_mid1{
+    float: left;
+    height: 26px;
+    width: 66px;
+    background-color: rgb(1,158,227);
+    margin-left: 34px;
+    margin-top: 32px;
+    padding-left: 45px;
+    padding:0 auto;
+    border-radius: 13px;
+    line-height: 26px;
+    color: white;
+    font-size: 20px;
+}
+.m_mid1{
+    background-color: rgb(85,171,110);
+    padding-left: 26px;
+    width: 84px;
+}
+.m_word{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.footer{
+    width: 1300px;
+    height: 500x;
+    background-color: rgb(248,248,248);
+}
+.f_left,.f_right{
+    float: left;
+    height: 400px;
+    width: 610px;
+}
+.left_title,.right_title{
+    margin-left: 52px;
+    margin-top: 27px;
+    width: 300px;
+    height: 32px;
+    line-height: 16px;
+    border-left: 5px solid rgb(15,75,158);
+    padding-left: 15px;
+    font-size: 30px;
+    color: rgb(5,75,158);
+}
+.left_body,.right_body{
+    width: 540px;
+    height: 320px;
+    margin-left: 51px;
+    margin-top: 18px;
+    border: 2px solid rgb(230,230,230);
+}
+.left_line1{
+    margin-left: 168px;
+    margin-top: 33px;
+}
+.left_tel{
+    margin-left: 113px;
+    margin-top: 5px;
+    font-size: 55px;
+    font-family: 'Calibri';
+    color: rgb(2,106,174);
+}
+.left_line2{
+    margin-left: 128px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.left_time{
+    width: 349px;
+    height: 55px;
+    margin-left: 60px;
+    margin-top: 14px;
+    border-top: 2px solid rgb(230,230,230);
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: rgb(15,91,150);
+    font-family: 'Calibri';
+}
+.right_button{
+    width: 430px;
+    height: 73px;
+    background-color: rgb(1,105,178);
+    margin-left: 52px;
+    margin-top: 72px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    box-shadow: 5px 5px 0px -2px rgba(31,65,90,.9);
+}
+.letter{
+    margin-left: 61px;
+    margin-top: 21px;
+    width: 31px;
+}
+.button_arrow{
+    float: right;
+    margin-top: 13px;
+    margin-right: 11px;
+}
+.button_word{
+    float: right;
+    margin-top: 11px;
+    margin-right: 33px;
+}
+.right_word{
+    margin-left: 127px;
+    margin-top: 2px;
+    font-size: 19px;
+}
+
+
+
+
